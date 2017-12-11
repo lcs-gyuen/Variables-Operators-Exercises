@@ -35,6 +35,11 @@
  
  */
 // Answer Question 1 below
+let firstName = "Geoff"
+let lastName = "Yuen"
+var currentGrade = "A+"
+let novemberReportCard = "Nice"
+
 
 /*:
  ### Question 2
@@ -47,7 +52,9 @@
  
  */
 // Answer Question 2 below
-
+let myAge: Int = 14
+let otherAge: Double = 40.0
+let averageAge: Double = 14+40/2
 
 /*:
  ### Question 3
@@ -55,8 +62,7 @@
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this constant.
  */
 // Answer Question 3 below
-
-
+var favHobby = "walking"
 /*:
  ### Question 4
  
@@ -65,7 +71,7 @@
  Use multiple `print` statements below to answer this question.
  */
 // Answer Question 4 below
-
+print("constants cannot be changed, so it can be set for things like names, items etc. to simplify things")
 
 /*:
  ### Question 5
@@ -76,7 +82,7 @@
  
  */
 // Answer Question 5 below
-
+let randomDemand = "one million dollars"
 /*:
  ### Question 6
  
@@ -96,7 +102,11 @@
  
  */
 // Answer Question 6 below
+var year = "2017"
+let what = "it is \(year)"
+var year = what
 
+print("No the error is a syntax problem. ")
 
 /*:
  ### Question 7
@@ -107,7 +117,7 @@
  */
 // Answer Question 7 below
 
-
+print("usually refers to languages that ensure that an operation is working on the right kind of data at some point before the operation is actually performed. This may be at compile time or at run time.")
 
 
 //: [Next](@next)
