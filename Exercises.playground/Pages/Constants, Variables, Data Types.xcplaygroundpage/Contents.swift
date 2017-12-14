@@ -73,7 +73,7 @@ var favHobby = "walking"
 // Answer Question 4 below
 print("constants cannot be changed, so it can be set for things like names, items etc. to simplify things")
 print("Swift compiler optimise code to be more efficent, when cosntants are uesd")
-print("Built in check")
+print("Built in error check")
 
 /*:
  ### Question 5
@@ -84,7 +84,7 @@ print("Built in check")
  
  */
 // Answer Question 5 below
-let randomDemand = "one million dollars"
+let randomDemand = 100_000_000_000
 /*:
  ### Question 6
  
@@ -105,9 +105,9 @@ let randomDemand = "one million dollars"
  */
 // Answer Question 6 below
 var year = "2017"
-let what = "it is \(year)"
-
-print("ou can't change the constant to the variable ")
+let what = "geoff"
+// year = what
+print("Compiler throws an error due to data type mismatch, syntax error")
 
 /*:
  ### Question 7
