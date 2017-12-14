@@ -106,7 +106,7 @@ var year = "2017"
 let what = "it is \(year)"
 var year = what
 
-print("No the error is a syntax problem. ")
+print("ou can't change the constant to the variable ")
 
 /*:
  ### Question 7
