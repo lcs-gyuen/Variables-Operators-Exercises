@@ -52,9 +52,9 @@ let novemberReportCard = "Nice"
  
  */
 // Answer Question 2 below
-let myAge: Int = 14
-let otherAge: Double = 40.0
-let averageAge: Double = 14+40/2
+let myAge = 14
+let otherAge = 40.0
+let averageAge: Double = (Double(myAge) + (otherAge))/2
 
 /*:
  ### Question 3
@@ -72,6 +72,8 @@ var favHobby = "walking"
  */
 // Answer Question 4 below
 print("constants cannot be changed, so it can be set for things like names, items etc. to simplify things")
+print("Swift compiler optimise code to be more efficent, when cosntants are uesd")
+print("Built in check")
 
 /*:
  ### Question 5
@@ -104,7 +106,6 @@ let randomDemand = "one million dollars"
 // Answer Question 6 below
 var year = "2017"
 let what = "it is \(year)"
-var year = what
 
 print("ou can't change the constant to the variable ")
 
